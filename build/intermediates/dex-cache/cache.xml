@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ryan/Development/Android/Personal/Source/AndroidFloatLabel/sample/build/intermediates/exploded-aar/AndroidFloatLabel/floatlabel/unspecified/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="70af52ce9624237639cfd3ee32743f060664f873">
+        <dex dex="/Users/ryan/Development/Android/Personal/Source/AndroidFloatLabel/sample/build/intermediates/pre-dexed/release/classes-845e59d29a88607a00be6f0ea0df4a3bd3d9d839.jar" />
+    </item>
+    <item
+        jar="/Users/ryan/Development/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/ryan/Development/Android/Personal/Source/AndroidFloatLabel/sample/build/intermediates/pre-dexed/release/support-annotations-22.1.1-fc99956da11b1695681078f7c3b21253ce1ebd6c.jar" />
+    </item>
+    <item
+        jar="/Users/ryan/Development/Android/Personal/Source/AndroidFloatLabel/sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/ryan/Development/Android/Personal/Source/AndroidFloatLabel/sample/build/intermediates/pre-dexed/release/classes-6229526fd94cd07816b4f4ec3de6185d5ec028f5.jar" />
+    </item>
+    <item
+        jar="/Users/ryan/Development/Android/Personal/Source/AndroidFloatLabel/sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/ryan/Development/Android/Personal/Source/AndroidFloatLabel/sample/build/intermediates/pre-dexed/release/internal_impl-22.1.1-236d01817c0df8f245f95154b39062772250b67b.jar" />
+    </item>
+    <item
+        jar="/Users/ryan/Development/Android/Personal/Source/AndroidFloatLabel/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/ryan/Development/Android/Personal/Source/AndroidFloatLabel/sample/build/intermediates/pre-dexed/release/classes-f52495b2dac1f512c39c1a6c0eb229095162815d.jar" />
+    </item>
+
+</items>

@@ -19,5 +19,6 @@
         <attr name="textSize" format="dimension"/>
         <attr name="textColorHintFocused" format="color"/>
         <attr name="textColorHintUnFocused" format="color"/>
+        <attr name="textColor" format="color"/>
     </declare-styleable>
 </resources>

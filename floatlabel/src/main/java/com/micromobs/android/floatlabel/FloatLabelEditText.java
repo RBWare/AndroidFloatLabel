@@ -24,7 +24,7 @@ import android.widget.TextView;
 public class FloatLabelEditText
     extends LinearLayout {
 
-    private int mCurrentApiVersion = android.os.Build.VERSION.SDK_INT, mFocusedColor, mUnFocusedColor, mFitScreenWidth, mGravity;
+    private int mCurrentApiVersion = android.os.Build.VERSION.SDK_INT, mFocusedColor, mUnFocusedColor, mEditTextColor, mFitScreenWidth, mGravity;
     private float mTextSizeInSp;
     private String mHintText, mEditText;
     private boolean mIsPassword = false;
@@ -118,6 +118,8 @@ public class FloatLabelEditText
                                                          android.R.color.black);
         mUnFocusedColor = attributesFromXmlLayout.getColor(R.styleable.FloatLabelEditText_textColorHintUnFocused,
                                                            android.R.color.darker_gray);
+        mEditTextColor = attributesFromXmlLayout.getColor(R.styleable.FloatLabelEditText_textColor,
+                android.R.color.black);
         mFitScreenWidth = attributesFromXmlLayout.getInt(R.styleable.FloatLabelEditText_fitScreenWidth,
                                                          0);
         mIsPassword = (attributesFromXmlLayout.getInt(R.styleable.FloatLabelEditText_inputType,
@@ -138,6 +140,7 @@ public class FloatLabelEditText
         mEditTextView.setText(mEditText);
         mEditTextView.setTextSize(TypedValue.COMPLEX_UNIT_SP, mTextSizeInSp);
         mEditTextView.addTextChangedListener(getTextWatcher());
+        mEditTextView.setTextColor(mEditTextColor);
 
         if (mFitScreenWidth > 0) {
             mEditTextView.setWidth(getSpecialWidth());
